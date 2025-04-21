@@ -1,0 +1,8 @@
+@mixin boton() {
+    color: $color_principal !important;
+    background-color: $color_terciario !important;
+    border: none !important;
+    &:hover{
+        background-color: $color_fuente_fondo !important;
+    }
+}

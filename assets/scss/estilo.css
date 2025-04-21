@@ -1,0 +1,56 @@
+@import url(../bootstrap-5.3.5/scss/bootstrap.scss);
+header {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.navbar img {
+  width: auto !important;
+  height: 70px !important;
+}
+
+header, .bg-body-tertiary {
+  background-color: #000d4c !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.btn-primary {
+  color: #000d4c !important;
+  background-color: #ffe100 !important;
+  border: none !important;
+}
+.btn-primary:hover {
+  background-color: #fff !important;
+}
+
+.dropdown-menu img {
+  width: 30px !important;
+  height: auto !important;
+}
+
+.carousel {
+  background-image: url("../img/background-players.png") !important;
+}
+.carousel img {
+  height: 600px !important;
+  width: auto !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-banner {
+  background-color: #000d4c !important;
+  color: #fff !important;
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+.col-jugadores-banner {
+  padding: 0 !important;
+}/*# sourceMappingURL=estilo.css.map */
