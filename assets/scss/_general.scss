@@ -34,8 +34,9 @@ header, .bg-body-tertiary{
 
 .carousel {
     background-image: url("../img/background-players.png") !important;
-
     img {
+        padding-top: 25px !important;  
+        padding-bottom: 25px !important;
         height: 600px !important;
         width: auto !important;
         display: block;
@@ -44,10 +45,15 @@ header, .bg-body-tertiary{
     }
 }
 
+.carousel-invertido {
+    // imagen de fondo invertida
+    background-image: url("../img/background-players-reverse.png") !important;
+    background-position: right top !important;
+    background-repeat: no-repeat !important;
+}
 
 .texto-banner{
-    background-color: $color_principal !important;
-    color: $color_fuente_fondo !important;
+    color: $color_secundario !important;
     font-family: $fuente_principal !important;
 }
 

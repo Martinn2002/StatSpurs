@@ -21,7 +21,7 @@ header, .bg-body-tertiary {
 }
 
 .btn-primary {
-  color: #000d4c !important;
+  color: #000a3c !important;
   background-color: #ffe100 !important;
   border: none !important;
 }
@@ -38,6 +38,8 @@ header, .bg-body-tertiary {
   background-image: url("../img/background-players.png") !important;
 }
 .carousel img {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
   height: 600px !important;
   width: auto !important;
   display: block;
@@ -45,9 +47,14 @@ header, .bg-body-tertiary {
   margin-right: auto;
 }
 
+.carousel-invertido {
+  background-image: url("../img/background-players-reverse.png") !important;
+  background-position: right top !important;
+  background-repeat: no-repeat !important;
+}
+
 .texto-banner {
-  background-color: #000d4c !important;
-  color: #fff !important;
+  color: #000a3c !important;
   font-family: "Bebas Neue", sans-serif !important;
 }
 
