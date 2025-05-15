@@ -1,6 +1,37 @@
 @import url(../bootstrap-5.3.5/scss/bootstrap.scss);
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Bebas Neue", sans-serif !important;
+}
+body p {
+  font-family: "Roboto", sans-serif !important;
+}
+body h1 {
+  font-size: 64px !important;
+}
+body h2 {
+  font-size: 48px !important;
+}
+body h3 {
+  font-size: 36px !important;
+}
+body h4 {
+  font-size: 24px !important;
+}
+body h5 {
+  font-size: 18px !important;
+}
+body h6 {
+  font-size: 16px !important;
+}
+body p {
+  font-size: 14px !important;
+}
+
 header {
   font-family: "Roboto", sans-serif !important;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar img {
@@ -39,7 +70,6 @@ header, .bg-body-tertiary {
 }
 .carousel img {
   padding-top: 25px !important;
-  padding-bottom: 25px !important;
   height: 600px !important;
   width: auto !important;
   display: block;
@@ -47,17 +77,226 @@ header, .bg-body-tertiary {
   margin-right: auto;
 }
 
-.carousel-invertido {
-  background-image: url("../img/background-players-reverse.png") !important;
-  background-position: right top !important;
-  background-repeat: no-repeat !important;
-}
-
 .texto-banner {
-  color: #000a3c !important;
+  background-color: #000d4c !important;
+  color: #fff !important;
   font-family: "Bebas Neue", sans-serif !important;
 }
 
 .col-jugadores-banner {
   padding: 0 !important;
+}
+
+a {
+  color: #000d4c !important;
+}
+a:hover {
+  color: #ffe100 !important;
+  text-decoration: none !important;
+}
+
+.contenido-landing img {
+  width: 100% !important;
+  height: auto !important;
+}
+.contenido-landing h2, .contenido-landing h1, .contenido-landing h5 {
+  color: #000d4c;
+}
+.contenido-landing .imagen-single {
+  max-width: 500px !important;
+}
+
+.row-jugadores img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.post-categories {
+  list-style: none !important;
+}
+.post-categories li {
+  display: flex !important;
+  text-align: left !important;
+  vertical-align: top !important;
+}
+.post-categories a {
+  font-size: 14px !important;
+  font-family: "Roboto", sans-serif !important;
+}
+.post-categories h1 {
+  font-family: "Bebas Neue", sans-serif !important;
+  font-size: 64px !important;
+}
+
+.contenido-jugador .row {
+  padding: 0;
+}
+.contenido-jugador img {
+  width: 100% !important;
+  height: auto !important;
+}
+.contenido-jugador .caja-jugador {
+  border: 2px solid #000d4c !important;
+  border-radius: 10px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.contenido-jugador .caja-jugador a {
+  color: #fff !important;
+}
+.contenido-jugador .caja-jugador h4 {
+  margin-bottom: 0px !important;
+  background-color: #000d4c !important;
+  line-height: 1.8 !important;
+  text-align: center !important;
+  border-bottom-left-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+}
+.contenido-jugador .caja-jugador .texto-jugador {
+  background-color: #000d4c !important;
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+footer {
+  background-color: #000d4c !important;
+  color: #fff !important;
+}
+footer a {
+  color: #ffe100 !important;
+}
+footer a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.capitan {
+  color: #000d4c;
+}
+
+.stats-partido img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-partido h1, .container-partido .alineacion-tottenham, .container-partido h3 {
+  color: #000d4c !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.container-partido .alineaciones ul {
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+.tarjeta-amarilla {
+  background-color: yellow !important;
+  color: black !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+}
+
+.tarjeta-roja {
+  background-color: red !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+}
+
+.jugador-destacado {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.icono-sustitucion {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  body h1 {
+    font-size: 48px !important;
+  }
+  body h2 {
+    font-size: 36px !important;
+  }
+  body h3 {
+    font-size: 24px !important;
+  }
+  body h4 {
+    font-size: 18px !important;
+  }
+  body h5 {
+    font-size: 16px !important;
+  }
+  body h6 {
+    font-size: 14px !important;
+  }
+  body p {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-jugadores-banner {
+    display: none;
+  }
+  .navbar-toggler {
+    background-color: #ffe100 !important;
+  }
+  .navbar-toggler-icon {
+    color: #000d4c !important;
+  }
+  .caja-jugador {
+    margin-bottom: 20px !important;
+  }
+  .contenido-jugador .caja-jugador {
+    width: 60% !important;
+    height: auto !important;
+    margin-left: auto !important;
+  }
+  .contenido-jugador hr {
+    display: none !important;
+  }
+  .contenido-landing .col-md-4 {
+    padding-right: auto !important;
+  }
+  .navbar-nav {
+    margin-bottom: -50px !important;
+  }
+  .post-partido {
+    margin-bottom: 50px !important;
+  }
+  .hr-landing hr {
+    display: none !important;
+  }
+  .mobile-landing {
+    margin-top: 0 !important;
+  }
+  .landing-medio {
+    margin-bottom: 0 !important;
+  }
+  .alineaciones {
+    display: none !important;
+  }
+  .texto-banner {
+    margin-bottom: 50px !important;
+  }
+  .container-partido h3 {
+    margin-top: 50px !important;
+  }
+  .container-partido iframe {
+    width: 336px !important;
+    height: 200px !important;
+  }
+  #player {
+    width: 100% !important;
+    height: auto !important;
+  }
 }/*# sourceMappingURL=estilo.css.map */
